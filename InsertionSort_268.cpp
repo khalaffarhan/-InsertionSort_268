@@ -40,4 +40,12 @@ void insertionsort()
             j--;
         }
 
-        
+        arr[j + 1] = temp;
+        cout << "\nStep" << i << ": ";
+        for (int k = 0; k < n; k++)
+        {
+            cout << arr[k] << " ";
+        }
+    }
+}
+
